@@ -1,0 +1,162 @@
+body{
+    background: #673ab7;
+    font-family: sans-serif;
+
+}
+
+form{
+    width: 500px;
+    margin: 8% auto;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0);
+}
+
+
+.input-box{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    box-shadow: 0 8px 10px -10px rgba(0,0,0);
+}
+
+.input-box input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    background: #efefef;
+    padding-left: 50px;
+    
+}
+
+span{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 42px;
+    width: 40px;
+    background: linear-gradient(to right, #4caf50, #00bcd4);
+}
+
+span .fa{
+    padding: 10px;
+    color: #fff;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    margin-left: 10%;
+    display: block;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    outline: none;
+    background: linear-gradient(to right, #4caf50, #00bcd4); 
+    box-shadow: 0 8px 10px -10px rgba(0,0,0);
+    cursor: pointer;
+    
+}
+
+button .fa{
+    margin-right: 10px;
+}
+
+form img{
+    width: 100px;
+    margin-top: -100px;
+
+}
+
+.password-strength-indicator{
+    font-size: 12px;
+    display: inline-block;
+    height: 15px;
+    min-width: 20%;
+    text-align: center;
+    transition:1s ;
+    margin: 50px 0;
+    color: #fff;
+
+}
+
+.password-strength-indicator.very-weak{
+    background: #cf0000;
+    width: 20%;
+}
+
+.password-strength-indicator.weak{
+    background: #f6891f;
+    width: 40%;
+}
+
+.password-strength-indicator.mediocre{
+    background: #eeee00;
+    width: 60%;
+}
+
+.password-strength-indicator.strong{
+    background: #99ff33;
+    width: 80%;
+}
+.password-strength-indicator.very-strong{
+    background: #22cf00;
+    width: 100%;
+}
+
+
+#text{
+    display: block;
+    color:#000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+
+}
+
+#form.invalid .input-mail::before{
+    content: '';
+    position: absolute;
+    right:12px ;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    background: url(../img/invalid.png);
+    background-size: cover;
+    z-index: 1000;
+
+}    
+
+
+#form.valid .input-mail::before{
+    content: '';
+    position: absolute;
+    right:12px ;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    background: url(../img/valid.png);
+    background-size: cover;
+    z-index: 1000;
+
+}   
+
+
+#toggle{
+    position: absolute;
+    top: 0%;
+    right: -15px;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: url(../img/eye.png);
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+#toggle.hide{
+    background: url(../img/hide.png);
+    background-size: cover;
+}
+
