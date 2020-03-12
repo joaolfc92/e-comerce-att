@@ -5,7 +5,7 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [
     {
         name: 'fitness watch',
-        tag: 'casa',
+        tag: 'gal09',
         price: 40,
         inCart: 0,
         
