@@ -1,0 +1,220 @@
+
+.top-nav-bar{
+    height: 60px;
+    width: 100%;
+    transition: 0.6s;
+    z-index: 1000;
+    border-bottom: 3px solid #009fe3;
+    margin-bottom: 20px;
+    background:  #009fe3;
+    display:flex;
+    justify-content: space-between;
+}
+
+.top-nav-bar.sticky{
+    background:  #009fe3;
+}
+
+
+.logo2{
+    height: 47px;
+    width: 200px;
+    margin: 5px 10px;
+    margin-right: 30px;
+}
+
+
+.form-search{
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #009fe3;
+    width: 450px;
+    height: 30px;
+    align-self: center;
+    
+}
+
+.input-text{
+    border-radius: 0 20px 20px 0;
+    background: #fff;
+    height: 28px;
+    width: 30px;
+    align-self: center;
+    line-height: 30px;
+    text-align: center;
+    color: #009fe3;
+    cursor: pointer;
+   
+}
+
+.search-box{
+    display: inline-flex;
+    width: 55%;
+}
+
+.menu-bar{
+    width: 35%;
+    height: 60px;
+    float: right;
+
+}
+
+
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+    
+    margin-bottom: 3px;
+
+}
+
+.menu-bar ul li{
+    border-left: 1px solid #fff;
+    list-style: none;
+    padding: 15px 35px;
+    text-align: center;
+    background: #009fe3;
+    cursor: pointer;
+    height: 60px;
+    line-height: 30px;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar ul li a .fa{
+    margin-right: 10px;
+}
+
+
+.product-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+    margin: 20px 0;
+}
+
+.product img{
+    height: 150px;
+    width: 150px;
+}
+
+.product-price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding-left: 80px;
+}
+
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.produto{
+    width: 45%;
+    margin: 20px 0;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    margin-right: 125px;;
+}
+
+.qtd{
+    width: 10%;
+}
+
+
+.SubTotal{
+    height: 200px;
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    right: 0;
+    flex-direction: column;
+    margin-left: 50%;
+}
+
+.valorSub{
+    display: flex;
+}
+
+.subTotalTittle{
+   flex: 1;
+    text-align: left;
+}
+
+.totalPr{
+    
+    text-align: right;
+}
+
+.desconto{
+    margin-top: 30px;
+}
+
+.confirmar{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.desconto-1{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+
+#cupom{
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    margin-left: 10px;
+    margin-right: 20px;
+
+
+}
+
+
+

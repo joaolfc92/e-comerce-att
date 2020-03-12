@@ -1,3 +1,6 @@
+// SCRIPT DA PAGINA DE CADASTRO
+
+
 $(function() {
     $("#password").passwordStrength();
     
@@ -34,7 +37,7 @@ function validation(){
 
   
 
-        function showHide(){
+function showHide(){
 
             let password = document.getElementById('password');
             let toggle = document.getElementById('toggle');
@@ -60,7 +63,8 @@ function validation(){
               
             }
 
-        }    
+}    
+
 
 
 
