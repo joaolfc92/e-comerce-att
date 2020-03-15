@@ -73,8 +73,17 @@ let products = [
 
     },
 
+    {
+        name: 'Camisa Kappa Botafogo III 2019 4 Honda Especial',
+        tag: 'gal10',
+        price: 249,
+        inCart: 0
+
+    }
+
 
 ]
+
 
 
 // contagem de produtos NUMERO
@@ -198,7 +207,7 @@ function displayCart(){
               
                 
                 <div class="price">
-                <span>US ${item.price}.00 </span>
+                <span>R$ ${item.price}.00 </span>
                  </div>
 
 
